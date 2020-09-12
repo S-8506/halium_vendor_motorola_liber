@@ -357,7 +357,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/motorola/liber/proprietary/product/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephonyservice.xml \
     vendor/motorola/liber/proprietary/product/etc/sysconfig/whitelist_com.motorola.omadm.vzw.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/whitelist_com.motorola.omadm.vzw.xml \
-    vendor/motorola/liber/proprietary/product/framework/com.motorola.androidx.camera.extensions.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.motorola.androidx.camera.extensions.jar \
     vendor/motorola/liber/proprietary/product/framework/dpmapi.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/dpmapi.jar \
     vendor/motorola/liber/proprietary/product/framework/embmslibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/embmslibrary.jar \
     vendor/motorola/liber/proprietary/product/framework/uimservicelibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/uimservicelibrary.jar \
@@ -393,7 +392,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/product/lib/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsdm-disp-apis.qti.so \
     vendor/motorola/liber/proprietary/product/lib/libseccam.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libseccam.so \
     vendor/motorola/liber/proprietary/product/lib/libsecureui_svcsock_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsecureui_svcsock_system.so \
-    vendor/motorola/liber/proprietary/product/lib/libstfactory.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libstfactory.so \
     vendor/motorola/liber/proprietary/product/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.0.so \
     vendor/motorola/liber/proprietary/product/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.1.so \
     vendor/motorola/liber/proprietary/product/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.2.so \
@@ -501,7 +499,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/product/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsdm-disp-apis.qti.so \
     vendor/motorola/liber/proprietary/product/lib64/libseccam.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libseccam.so \
     vendor/motorola/liber/proprietary/product/lib64/libsecureui_svcsock_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsecureui_svcsock_system.so \
-    vendor/motorola/liber/proprietary/product/lib64/libstfactory.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libstfactory.so \
     vendor/motorola/liber/proprietary/product/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.0.so \
     vendor/motorola/liber/proprietary/product/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.1.so \
     vendor/motorola/liber/proprietary/product/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.2.so \
@@ -578,9 +575,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/product/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/motorola/liber/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/motorola/liber/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
-    vendor/motorola/liber/proprietary/product/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.latency@2.0.so \
-    vendor/motorola/liber/proprietary/product/priv-app/AttPhoneExt/AttPhoneExt.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AttPhoneExt/AttPhoneExt.apk \
-    vendor/motorola/liber/proprietary/product/priv-app/DMService/DMService.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/DMService/DMService.apk
+    vendor/motorola/liber/proprietary/product/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.latency@2.0.so
 
 PRODUCT_PACKAGES += \
     DynamicDDSService \
@@ -591,12 +586,15 @@ PRODUCT_PACKAGES += \
     embms \
     uceShimService \
     uimgbaservice \
+    AttPhoneExt \
+    DMService \
     VzwDM \
     atfwd \
     ims \
     qcrilmsgtunnel \
     vzwPcoExt \
     QtiTelephonyServicelibrary \
+    com.motorola.androidx.camera.extensions \
     com.motorola.imager.foles \
     com.qti.dpmframework \
     com.qualcomm.qti.imscmservice-V2.0-java \
