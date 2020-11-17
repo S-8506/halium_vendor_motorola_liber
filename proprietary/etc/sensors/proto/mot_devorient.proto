@@ -49,6 +49,7 @@ enum mot_devorient_msgid {
 enum mot_devorient_flat_state {
   option (nanopb_enumopt).long_names = false;
 
+  // These values selected to match values used in DSP register
   MOT_DEVORIENT_FLAT_UNKNOWN = 0;
   MOT_DEVORIENT_FLAT_UP = 1;
   MOT_DEVORIENT_FLAT_DOWN = 2;
@@ -103,4 +104,3 @@ message mot_devorient_flatdown_event
 
 // Handling test events:
 //    Not Supported
-

@@ -42,10 +42,6 @@ enum sns_proximity_msgid {
   // Purpose: A non-recurring output data event from the proximity sensor to its client.
   SNS_PROXIMITY_MSGID_SNS_PROXIMITY_EVENT  = 769;
 
-  // Uses message: sns_proximity_event_recurrent
-  // Purpose: A recurring output data event from the proximity sensor to its client.
-  SNS_PROXIMITY_MSGID_SNS_PROXIMITY_EVENT_RECURRENT  = 1031;
-
   // No payload
   // Purpose: Send this message to force a recalibration
   MOT_PROXIMITY_MSGID_SNS_PROXIMITY_RECAL_CONFIG = 870;
@@ -53,6 +49,10 @@ enum sns_proximity_msgid {
   // Uses message: mot_proximity_recal_event
   // Purpose: This message is sent whenever a recalibration is complete
   MOT_PROXIMITY_MSGID_SNS_PROXIMITY_RECAL_EVENT = 871;
+
+  // Uses message: sns_proximity_event_recurrent
+  // Purpose: A recurring output data event from the proximity sensor to its client.
+  SNS_PROXIMITY_MSGID_SNS_PROXIMITY_EVENT_RECURRENT  = 1031;
 }
 
 enum sns_proximity_event_type {
@@ -133,7 +133,7 @@ message mot_proximity_recal_event
 //    type to determine factory calibration parameters using the physical
 //    sensor test API. The factory test for Proximity Sensor calibrates
 //    the sensor to detect an object (including light and dark colored)
-//    at 5cm distance from the physical sensor.
+//    at 5 cm distance from the physical sensor.
 // 3. The Proximity Sensor could implement other test types.
 
 // Handling test events:

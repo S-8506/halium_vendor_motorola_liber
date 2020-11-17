@@ -24,6 +24,8 @@ import "sns_std_sensor.proto";
 enum mot_stowed_msgid {
   option (nanopb_enumopt).long_names = false;
 
+  MOT_STOWED_MSGID_MOT_STOWED_FORCE_PROX_ON_REQ = 767;
+
   MOT_STOWED_MSGID_MOT_STOWED_EVENT = 772;
 
   // sent after being stowed for a period of time
@@ -34,8 +36,10 @@ enum mot_stowed_event_type
 {
   option (nanopb_enumopt).long_names = false;
 
+  // These values selected to match values used in DSP register
   MOT_STOWED_EVENT_TYPE_NOT_STOWED    = 0;
   MOT_STOWED_EVENT_TYPE_STOWED        = 1;
+  MOT_STOWED_EVENT_TYPE_UNKNOWN       = 3;
 }
 
 message mot_stowed_event
@@ -49,4 +53,3 @@ message mot_stowed_event
 // The mot_stowed_event message is used to publish the updated state
 //
 // This sensor does not publish configuration events.
-

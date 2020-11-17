@@ -42,6 +42,9 @@ message mot_flip_event
 
   // Running count of open/closed events since registration at boot
   optional uint32 event_count = 2 [default = 0];
+
+  // Integer representing the cause of the new event (see the driver for the enum)
+  optional int32 cause = 3 [default = 0];
 }
 
 // Stream events:
@@ -49,4 +52,3 @@ message mot_flip_event
 // The mot_flip_event message is used to publish updated state
 //
 // This sensor does not publish configuration events.
-

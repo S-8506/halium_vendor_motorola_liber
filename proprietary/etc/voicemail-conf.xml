@@ -51,6 +51,9 @@
   <voicemail numeric='72404' vmnumber='*100' carrier='TIM Brasil'/>
   <voicemail numeric='72417' vmnumber='*100' carrier='Surf Brasil'/>
   <voicemail numeric='26202' vmnumber='5500' carrier='Vodafone Germany'/>
+  <voicemail numeric='26204' vmnumber='5500' carrier='Vodafone Germany'/>
+  <voicemail numeric='26209' vmnumber='5500' carrier='Vodafone Germany'/>
+  <voicemail numeric='20205' vmnumber='121' carrier='Vodafone GR'/>
   <voicemail numeric='20416' vmnumber='+31624001233' carrier='T-Mobile Netherland'/>
   <voicemail numeric='23430' vmnumber='222' carrier='Virgin UK' mvno_type='spn' mvno_match_data='Virgin'/>
   <voicemail numeric='23431' vmnumber='222' carrier='Virgin UK' mvno_type='spn' mvno_match_data='Virgin'/>

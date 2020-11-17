@@ -143,7 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/etc/voicemail-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/voicemail-conf.xml \
     vendor/motorola/liber/proprietary/framework/audiosphere.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/audiosphere.jar \
     vendor/motorola/liber/proprietary/framework/izat.xt.srv.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/izat.xt.srv.jar \
-    vendor/motorola/liber/proprietary/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib/fm_helium.so \
     vendor/motorola/liber/proprietary/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so \
     vendor/motorola/liber/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/motorola/liber/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
@@ -155,8 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdualcameraddm.so \
     vendor/motorola/liber/proprietary/lib/libeye_tracking_dsp_sample_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libeye_tracking_dsp_sample_stub.so \
     vendor/motorola/liber/proprietary/lib/libfiltergenerator.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfiltergenerator.so \
-    vendor/motorola/liber/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
-    vendor/motorola/liber/proprietary/lib/libfmq.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfmq.so \
     vendor/motorola/liber/proprietary/lib/libframeextension.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libframeextension.so \
     vendor/motorola/liber/proprietary/lib/libhazebuster.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhazebuster.so \
     vendor/motorola/liber/proprietary/lib/libjni_blurbuster.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_blurbuster.so \
@@ -190,7 +187,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/lib/libqvr_cdsp_driver_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvr_cdsp_driver_stub.so \
     vendor/motorola/liber/proprietary/lib/libqvr_eyetracking_plugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvr_eyetracking_plugin.so \
     vendor/motorola/liber/proprietary/lib/libqvrcamera_client.qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrcamera_client.qti.so \
+    vendor/motorola/liber/proprietary/lib/libqvrcamera_client.qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrcamera_client.qti.so \
     vendor/motorola/liber/proprietary/lib/libqvrservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrservice.so \
+    vendor/motorola/liber/proprietary/lib/libqvrservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrservice.so \
+    vendor/motorola/liber/proprietary/lib/libqvrservice_client.qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrservice_client.qti.so \
     vendor/motorola/liber/proprietary/lib/libqvrservice_client.qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrservice_client.qti.so \
     vendor/motorola/liber/proprietary/lib/libqvrservice_ov7251_hvx_tuning.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrservice_ov7251_hvx_tuning.so \
     vendor/motorola/liber/proprietary/lib/libqvrservice_ov9282_hvx_tuning.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrservice_ov9282_hvx_tuning.so \
@@ -199,7 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/lib/libtrueportrait.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtrueportrait.so \
     vendor/motorola/liber/proprietary/lib/libtruescanner.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtruescanner.so \
     vendor/motorola/liber/proprietary/lib/libubifocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libubifocus.so \
-    vendor/motorola/liber/proprietary/lib/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvndfwk_detect_jni.qti.so \
     vendor/motorola/liber/proprietary/lib/libvr_amb_engine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvr_amb_engine.so \
     vendor/motorola/liber/proprietary/lib/libvr_object_engine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvr_object_engine.so \
     vendor/motorola/liber/proprietary/lib/libvr_sam_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvr_sam_wrapper.so \
@@ -233,7 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/lib/vendor.goodix.hardware.biometrics.fingerprint@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.goodix.hardware.biometrics.fingerprint@3.0.so \
     vendor/motorola/liber/proprietary/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
     vendor/motorola/liber/proprietary/lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
-    vendor/motorola/liber/proprietary/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
     vendor/motorola/liber/proprietary/lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so \
     vendor/motorola/liber/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/motorola/liber/proprietary/lib64/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOmxMux.so \
@@ -242,18 +240,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/motorola/liber/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/motorola/liber/proprietary/lib64/libbluetooth_qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbluetooth_qti.so \
-    vendor/motorola/liber/proprietary/lib64/libbluetooth_qti_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbluetooth_qti_jni.so \
-    vendor/motorola/liber/proprietary/lib64/libbluetooth-binder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbluetooth-binder.so \
     vendor/motorola/liber/proprietary/lib64/libbtconfigstore.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbtconfigstore.so \
     vendor/motorola/liber/proprietary/lib64/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcdsprpc_system.so \
     vendor/motorola/liber/proprietary/lib64/libchromaflash.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libchromaflash.so \
     vendor/motorola/liber/proprietary/lib64/libdualcameraddm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdualcameraddm.so \
     vendor/motorola/liber/proprietary/lib64/libfiltergenerator.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfiltergenerator.so \
-    vendor/motorola/liber/proprietary/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
-    vendor/motorola/liber/proprietary/lib64/libfmq.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfmq.so \
     vendor/motorola/liber/proprietary/lib64/libframeextension.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libframeextension.so \
     vendor/motorola/liber/proprietary/lib64/libhazebuster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhazebuster.so \
-    vendor/motorola/liber/proprietary/lib64/libimgTuner_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimgTuner_jni.so \
     vendor/motorola/liber/proprietary/lib64/libjni_blurbuster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_blurbuster.so \
     vendor/motorola/liber/proprietary/lib64/libjni_chromaflash.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_chromaflash.so \
     vendor/motorola/liber/proprietary/lib64/libjni_clearsight.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_clearsight.so \
@@ -261,7 +254,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/lib64/libjni_filtergenerator.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_filtergenerator.so \
     vendor/motorola/liber/proprietary/lib64/libjni_hazebuster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_hazebuster.so \
     vendor/motorola/liber/proprietary/lib64/libjni_optizoom.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_optizoom.so \
-    vendor/motorola/liber/proprietary/lib64/libjni_pacprocessor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_pacprocessor.so \
     vendor/motorola/liber/proprietary/lib64/libjni_seestraight.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_seestraight.so \
     vendor/motorola/liber/proprietary/lib64/libjni_sharpshooter.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_sharpshooter.so \
     vendor/motorola/liber/proprietary/lib64/libjni_stillmore.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_stillmore.so \
@@ -290,7 +282,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtrueportrait.so \
     vendor/motorola/liber/proprietary/lib64/libtruescanner.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtruescanner.so \
     vendor/motorola/liber/proprietary/lib64/libubifocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libubifocus.so \
-    vendor/motorola/liber/proprietary/lib64/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvndfwk_detect_jni.qti.so \
     vendor/motorola/liber/proprietary/lib64/libvr_amb_engine.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvr_amb_engine.so \
     vendor/motorola/liber/proprietary/lib64/libvr_object_engine.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvr_object_engine.so \
     vendor/motorola/liber/proprietary/lib64/libvr_sam_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvr_sam_wrapper.so \
@@ -316,19 +307,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/lib64/vendor.goodix.hardware.biometrics.fingerprint@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.goodix.hardware.biometrics.fingerprint@3.0.so \
     vendor/motorola/liber/proprietary/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
     vendor/motorola/liber/proprietary/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
-    vendor/motorola/liber/proprietary/usr/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-fpc.idc \
-    vendor/motorola/liber/proprietary/usr/idc/uinput_nav.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput_nav.idc \
-    vendor/motorola/liber/proprietary/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \
-    vendor/motorola/liber/proprietary/usr/keylayout/uinput_nav.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput_nav.kl
-
-PRODUCT_PACKAGES += \
-    MotoSignatureApp \
-    com.motorola.frameworks.core.addon \
-    com.motorola.motosignature \
-    com.qti.snapdragon.sdk.display \
-    qcom-moto-telephony-ext \
-    vendor.goodix.hardware.biometrics.fingerprint-V3.0-java
-PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/motorola/liber/proprietary/product/etc/permissions/com.motorola.androidx.camera.extensions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.androidx.camera.extensions.xml \
     vendor/motorola/liber/proprietary/product/etc/permissions/com.motorola.camera2.content.ai.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera2.content.ai.xml \
@@ -363,10 +341,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/product/framework/uimservicelibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/uimservicelibrary.jar \
     vendor/motorola/liber/proprietary/product/framework/vendor.qti.data.factory-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.data.factory-V1.0-java.jar \
     vendor/motorola/liber/proprietary/product/framework/vendor.qti.data.factory-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.data.factory-V2.0-java.jar \
-    vendor/motorola/liber/proprietary/product/framework/vendor.qti.hardware.bluetooth_dun-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.bluetooth_dun-V1.0-java.jar \
     vendor/motorola/liber/proprietary/product/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
     vendor/motorola/liber/proprietary/product/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/motorola/liber/proprietary/product/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
+    vendor/motorola/liber/proprietary/product/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/motorola/liber/proprietary/product/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/liber/proprietary/product/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/motorola/liber/proprietary/product/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@2.1.so \
@@ -374,9 +352,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/product/lib/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.uceservice@2.0.so \
     vendor/motorola/liber/proprietary/product/lib/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.uceservice@2.1.so \
     vendor/motorola/liber/proprietary/product/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.api@1.0.so \
+    vendor/motorola/liber/proprietary/product/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.api@1.0.so \
+    vendor/motorola/liber/proprietary/product/lib/com.quicinc.cne.api@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.api@1.1.so \
     vendor/motorola/liber/proprietary/product/lib/com.quicinc.cne.api@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.api@1.1.so \
     vendor/motorola/liber/proprietary/product/lib/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.constants@1.0.so \
+    vendor/motorola/liber/proprietary/product/lib/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.constants@1.0.so \
     vendor/motorola/liber/proprietary/product/lib/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.constants@2.0.so \
+    vendor/motorola/liber/proprietary/product/lib/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.constants@2.0.so \
+    vendor/motorola/liber/proprietary/product/lib/com.quicinc.cne.constants@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.constants@2.1.so \
     vendor/motorola/liber/proprietary/product/lib/com.quicinc.cne.constants@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.constants@2.1.so \
     vendor/motorola/liber/proprietary/product/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvideocodec.so \
     vendor/motorola/liber/proprietary/product/lib/lib-imsvt.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvt.so \
@@ -577,12 +560,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/product/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/motorola/liber/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/motorola/liber/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
-    vendor/motorola/liber/proprietary/product/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.latency@2.0.so
+    vendor/motorola/liber/proprietary/product/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.latency@2.0.so \
+    vendor/motorola/liber/proprietary/usr/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-fpc.idc \
+    vendor/motorola/liber/proprietary/usr/idc/uinput_nav.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput_nav.idc \
+    vendor/motorola/liber/proprietary/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \
+    vendor/motorola/liber/proprietary/usr/keylayout/uinput_nav.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput_nav.kl
 
 PRODUCT_PACKAGES += \
+    MotoSignatureApp \
+    com.qualcomm.location \
     DynamicDDSService \
-    FMPlayer \
-    FMRadioService \
     QtiTelephonyService \
     datastatusnotification \
     embms \
@@ -595,6 +582,11 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     vzwPcoExt \
+    com.motorola.frameworks.core.addon \
+    com.motorola.motosignature \
+    com.qti.snapdragon.sdk.display \
+    qcom-moto-telephony-ext \
+    vendor.goodix.hardware.biometrics.fingerprint-V3.0-java \
     QtiTelephonyServicelibrary \
     com.motorola.androidx.camera.extensions \
     com.motorola.imager.foles \
@@ -608,7 +600,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants-V1.0-java \
     com.quicinc.cne.constants-V2.0-java \
     com.quicinc.cne.constants-V2.1-java \
-    qcom.fmradio_product \
     qcrilhook \
     qti-telephony-common \
     vendor.qti.hardware.alarm-V1.0-java \
@@ -625,6 +616,4 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.callinfo-V1.0-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
     vendor.qti.latency-V2.0-java \
-    vendor.qti.voiceprint-V1.0-java \
-    UxPerformance \
-    QPerformance
+    vendor.qti.voiceprint-V1.0-java
