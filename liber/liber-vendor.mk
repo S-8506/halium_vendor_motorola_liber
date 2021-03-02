@@ -18,6 +18,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/liber
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/liber/proprietary/lib/motorola.hardware.popup@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/motorola.hardware.popup@1.0.so \
+    vendor/motorola/liber/proprietary/lib64/motorola.hardware.popup@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/motorola.hardware.popup@1.0.so \
     vendor/motorola/liber/proprietary/product/lib/libarcsoft_dualcam_phone_calibration.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libarcsoft_dualcam_phone_calibration.so \
     vendor/motorola/liber/proprietary/product/lib/libarcsoft_dualcam_phone_verification.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libarcsoft_dualcam_phone_verification.so \
     vendor/motorola/liber/proprietary/product/lib/libarcsoftbase.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libarcsoftbase.so \
@@ -30,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/product/lib64/libarcsoftverification_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoftverification_jni.so \
     vendor/motorola/liber/proprietary/vendor/bin/capsense_reset:$(TARGET_COPY_OUT_VENDOR)/bin/capsense_reset \
     vendor/motorola/liber/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice \
+    vendor/motorola/liber/proprietary/vendor/bin/hw/motorola.hardware.popup.akm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.popup.akm@1.0-service \
     vendor/motorola/liber/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/liber/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/motorola/liber/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -44,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/motorola/liber/proprietary/vendor/etc/hdr_tm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_tm_config.xml \
     vendor/motorola/liber/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
+    vendor/motorola/liber/proprietary/vendor/etc/init/motorola.hardware.popup.akm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.popup.akm@1.0-service.rc \
     vendor/motorola/liber/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_focal_1080p_653.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_focal_1080p_653.xml \
     vendor/motorola/liber/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_nova_1080p_653.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_nova_1080p_653.xml \
     vendor/motorola/liber/proprietary/vendor/etc/sensors/config/default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/default_sensors.json \
@@ -163,6 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/motorola/liber/proprietary/vendor/lib/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_distortion_correction.so \
     vendor/motorola/liber/proprietary/vendor/lib/libarcsoft_zoomtranslator_imp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_zoomtranslator_imp.so \
+    vendor/motorola/liber/proprietary/vendor/lib/motorola.hardware.popup@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.popup@1.0.so \
     vendor/motorola/liber/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov02a10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov02a10_eeprom.so \
     vendor/motorola/liber/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov16a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov16a_eeprom.so \
@@ -268,6 +273,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/liber/proprietary/vendor/lib64/libmulticam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulticam_optical_zoom_control.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libmulticam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulticam_video_optical_zoom.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libnpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpu.so \
+    vendor/motorola/liber/proprietary/vendor/lib64/libpopup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpopup.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/motorola/liber/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
